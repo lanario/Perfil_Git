@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+
+header {
+    padding: 16px;
+    background-color: rgb(80, 0, 0);
+    color :#fff;
+}
+
+body {
+    background-color: #fff;
+    color:rgb(80, 0, 0);
+    
+}
+
+body .mid {
+    padding: 32px;
+} 
+
+/* Estilos para a classe .habilidades */
+.habilidades {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Estilos para a classe .circulo */
+.circulo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.circulo img {
+    height: 150px;
+}
+
+/* Estilos para a classe .quadrado */
+.quadrado {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px; /* Espaço entre os quadrados */
+}
+
+.quadrado img {
+    height: 150px;
+}
+
+body .container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
