@@ -1,0 +1,32 @@
+:root {
+    /* Project Colors */
+
+    --blue: #03092D;
+    /* Background */
+
+    --blue-light: #11153A;
+    /* Items Background */
+
+    --gray: #474B66;
+    /* Text */
+
+    --white: #FFFFFF;
+    /* Text */
+
+    --green: #3D9A7B;
+}
+
+body {
+    background: var(--blue);
+    color: var(--white);
+    -webkit-font-smoothing: antialiased;
+}
+
+body,
+input,
+textarea,
+button {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
